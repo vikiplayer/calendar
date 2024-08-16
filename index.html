@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="btn">
+                <button id="per">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+            </div>
+            <!-- Current Month Display -->
+            <div><h1 class="thismonth"></h1></div>
+            <!-- Next Month Button -->
+            <div class="btn">
+                <button id="nxt">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </header>
+        <div class="days">
+            <ul class="week">
+                <li>SU</li>
+                <li>MO</li>
+                <li>TU</li>
+                <li>WE</li>
+                <li>TH</li>
+                <li>FR</li>
+                <li>SA</li>
+            </ul>
+            <ul class="date"></ul>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
